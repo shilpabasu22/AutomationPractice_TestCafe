@@ -1,0 +1,85 @@
+[
+  {
+    "description": "Login_Test",
+    "elements": [
+      {
+        "id": "ScenarioLogin_Test;should try to login with valid credentials",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "should try to login with valid credentials",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "E:\\Shilpa\\AutomationFrameworks\\AutomationPractice_TestCafe\\tests\\login.test.js:1:0"
+            },
+            "name": "should try to login with valid credentials",
+            "result": {
+              "duration": 12771,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": "<a href=\"#\">should try to login with valid credentials</a>"
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Login_Test",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "app": {},
+      "browser": {
+        "name": "chrome",
+        "version": "74.0.3729"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10.0.0"
+      }
+    },
+    "name": "Login_Test",
+    "runInfo": {
+      "endTime": "2019-06-01T20:36:12.978Z",
+      "passed": 1,
+      "startTime": "2019-06-01T20:36:00.145Z",
+      "testCount": 1,
+      "userAgents": [
+        "Chrome 74.0.3729 / Windows 10.0.0"
+      ],
+      "warnings": []
+    },
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@login_test"
+      },
+      {
+        "line": 0,
+        "name": "@try"
+      },
+      {
+        "line": 0,
+        "name": "@login"
+      },
+      {
+        "line": 0,
+        "name": "@valid"
+      },
+      {
+        "line": 0,
+        "name": "@credentials"
+      }
+    ],
+    "uri": "E:\\Shilpa\\AutomationFrameworks\\AutomationPractice_TestCafe\\tests\\login.test.js:1"
+  }
+]

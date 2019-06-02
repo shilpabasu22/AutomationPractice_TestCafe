@@ -1,0 +1,44 @@
+{
+  "name": "automationpractice_testcafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "debug": "node --inspect=1337 --debug-brk --nolazy node_modules/cucumber/bin/cucumber-js --tags @debug --format json:./reports/report.json",
+    "test": "./node_modules/.bin/cucumber-js.cmd",
+    "test-report": "./node_modules/.bin/cucumber-js.cmd --format json:./reports/report.json",
+    "test-chrome": "./node_modules/.bin/cucumber-js.cmd --tags \"@active\" --world-parameters \"{\\\"browser\\\": \\\"chrome\\\"}\"",
+    "test-ie": "./node_modules/.bin/cucumber-js.cmd  --world-parameters \"{\\\"browser\\\": \\\"ie\\\"}\"",
+    "test-edge": "./node_modules/.bin/cucumber-js.cmd  --world-parameters \"{\\\"browser\\\": \\\"edge\\\"}\"",
+    "test-firefox": "./node_modules/.bin/cucumber-js.cmd  --world-parameters \"{\\\"browser\\\": \\\"firefox\\\"}\"",
+    "test-opera": "./node_modules/.bin/cucumber-js.cmd  --world-parameters \"{\\\"browser\\\": \\\"opera\\\"}\"",
+    "test-safari": "./node_modules/.bin/cucumber-js.cmd  --world-parameters \"{\\\"browser\\\": \\\"safari\\\"}\"",
+    "test-chrome-report": "./node_modules/.bin/cucumber-js.cmd  --format json:./reports/report.json --world-parameters \"{\\\"browser\\\": \\\"chrome\\\"}\"",
+    "test-ie-report": "./node_modules/.bin/cucumber-js.cmd  --format json:./reports/report.json --world-parameters \"{\\\"browser\\\": \\\"ie\\\"}\"",
+    "test-edge-report": "./node_modules/.bin/cucumber-js.cmd  --format json:./reports/report.json --world-parameters \"{\\\"browser\\\": \\\"edge\\\"}\"",
+    "test-firefox-report": "./node_modules/.bin/cucumber-js.cmd  --format json:./reports/report.json --world-parameters \"{\\\"browser\\\": \\\"firefox\\\"}\"",
+    "test-opera-report": "./node_modules/.bin/cucumber-js.cmd  --format json:./reports/report.json --world-parameters \"{\\\"browser\\\": \\\"opera\\\"}\"",
+    "test-safari-report": "./node_modules/.bin/cucumber-js.cmd  --format json:./reports/report.json --world-parameters \"{\\\"browser\\\": \\\"safari\\\"}\"",
+    "test-chrome-headless": "./node_modules/.bin/cucumber-js.cmd  --world-parameters \"{\\\"browser\\\": \\\"chrome:headless\\\"}\"",
+    "test-firefox-headless": "./node_modules/.bin/cucumber-js.cmd  --world-parameters \"{\\\"browser\\\": \\\"firefox:headless\\\"}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shilpabasu22/AutomationPractice_TestCafe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shilpabasu22/AutomationPractice_TestCafe/issues"
+  },
+  "homepage": "https://github.com/shilpabasu22/AutomationPractice_TestCafe#readme",
+  "devDependencies": {
+    "testcafe": "^1.2.0",
+    "cucumber": "^5.1.0",
+    "testcafe-reporter-cucumber-json": "1.2.0",
+    "multiple-cucumber-html-reporter": "1.11.6"
+  },
+  "dependencies": {
+    "base64-img": "^1.0.4"
+  }
+}
