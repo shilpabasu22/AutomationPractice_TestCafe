@@ -7,7 +7,7 @@
     "debug": "node --inspect=1337 --debug-brk --nolazy node_modules/cucumber/bin/cucumber-js --tags @debug --format json:./reports/report.json",
     "test": "./node_modules/.bin/cucumber-js.cmd",
     "test-report": "./node_modules/.bin/cucumber-js.cmd --format json:./reports/report.json",
-    "test-chrome": "./node_modules/.bin/cucumber-js.cmd --tags \"@active\" --world-parameters \"{\\\"browser\\\": \\\"chrome\\\"}\"",
+    "test-chrome": "./node_modules/.bin/cucumber-js.cmd --tags @negative --world-parameters \"{\\\"browser\\\": \\\"chrome\\\"}\"",
     "test-ie": "./node_modules/.bin/cucumber-js.cmd  --world-parameters \"{\\\"browser\\\": \\\"ie\\\"}\"",
     "test-edge": "./node_modules/.bin/cucumber-js.cmd  --world-parameters \"{\\\"browser\\\": \\\"edge\\\"}\"",
     "test-firefox": "./node_modules/.bin/cucumber-js.cmd  --world-parameters \"{\\\"browser\\\": \\\"firefox\\\"}\"",
@@ -20,7 +20,8 @@
     "test-opera-report": "./node_modules/.bin/cucumber-js.cmd  --format json:./reports/report.json --world-parameters \"{\\\"browser\\\": \\\"opera\\\"}\"",
     "test-safari-report": "./node_modules/.bin/cucumber-js.cmd  --format json:./reports/report.json --world-parameters \"{\\\"browser\\\": \\\"safari\\\"}\"",
     "test-chrome-headless": "./node_modules/.bin/cucumber-js.cmd  --world-parameters \"{\\\"browser\\\": \\\"chrome:headless\\\"}\"",
-    "test-firefox-headless": "./node_modules/.bin/cucumber-js.cmd  --world-parameters \"{\\\"browser\\\": \\\"firefox:headless\\\"}\""
+    "test-firefox-headless": "./node_modules/.bin/cucumber-js.cmd  --world-parameters \"{\\\"browser\\\": \\\"firefox:headless\\\"}\"",
+    "report": "node report-generator.js"
   },
   "repository": {
     "type": "git",

@@ -16,6 +16,9 @@ exports.register = {
     },
     personalInformation: function(){
         return select('#account-creation_form > div:nth-child(1) > h3').with({ boundTestRun: testController })
+    },
+    errorMessage: function(){
+        return select('#create_account_error > ol > li').with({boundTestRun:testController})
     }
 
 }

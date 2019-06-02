@@ -1,85 +1,602 @@
 [
   {
-    "description": "Login_Test",
+    "description": "    As a user\n    I want to login to AutomationPractice",
+    "keyword": "Feature",
+    "name": "Login on AutomationPractice.com",
+    "line": 1,
+    "id": "login-on-automationpractice.com",
+    "tags": [],
+    "uri": "features\\login.feature",
     "elements": [
       {
-        "id": "ScenarioLogin_Test;should try to login with valid credentials",
+        "id": "login-on-automationpractice.com;login-to-automationpractice",
         "keyword": "Scenario",
-        "line": 0,
-        "name": "should try to login with valid credentials",
-        "skipped": false,
-        "sourceLine": "undefined",
-        "status": "passed",
-        "steps": [
+        "line": 16,
+        "name": "Login to AutomationPractice",
+        "tags": [
           {
-            "hidden": false,
-            "keyword": ">",
-            "match": {
-              "location": "E:\\Shilpa\\AutomationFrameworks\\AutomationPractice_TestCafe\\tests\\login.test.js:1:0"
-            },
-            "name": "should try to login with valid credentials",
-            "result": {
-              "duration": 12771,
-              "status": "passed"
-            },
-            "tags": [],
-            "text": "<a href=\"#\">should try to login with valid credentials</a>"
+            "name": "@positive",
+            "line": 6
           }
         ],
-        "tags": [],
         "type": "scenario",
-        "uri": ""
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9059000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I open AutomationPractice page",
+            "match": {
+              "location": "features\\stepDefinitions\\login.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3695000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I navigate to Login Page",
+            "match": {
+              "location": "features\\stepDefinitions\\login.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3876000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I enter my username as \"gaming.shilpa@gmail.com\"",
+            "match": {
+              "location": "features\\stepDefinitions\\login.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 657000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I enter my password as \"Test123\"",
+            "match": {
+              "location": "features\\stepDefinitions\\login.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 348000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I press the Login button",
+            "match": {
+              "location": "features\\stepDefinitions\\login.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2713000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "My name \"Shilpa Basu\" is displayed",
+            "match": {
+              "location": "features\\stepDefinitions\\login.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
       }
-    ],
-    "id": "Login_Test",
+    ]
+  },
+  {
+    "description": "    As a new user\n    I want to register to AutomationPractice",
     "keyword": "Feature",
-    "line": 0,
-    "metadata": {
-      "app": {},
-      "browser": {
-        "name": "chrome",
-        "version": "74.0.3729"
+    "name": "Register on AutomationPractice.com",
+    "line": 1,
+    "id": "register-on-automationpractice.com",
+    "tags": [],
+    "uri": "features\\registerUser.feature",
+    "elements": [
+      {
+        "id": "register-on-automationpractice.com;register-to-automationpractice",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Register to AutomationPractice",
+        "tags": [
+          {
+            "name": "@active",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6976000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I open AutomationPractice page",
+            "match": {
+              "location": "features\\stepDefinitions\\login.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2846000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I navigate to Register Page",
+            "match": {
+              "location": "features\\stepDefinitions\\register.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3382000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I register with my username as \"gaming.shilpa1@gmail.com\"",
+            "match": {
+              "location": "features\\stepDefinitions\\register.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 672000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I press the Create Account Button",
+            "match": {
+              "location": "features\\stepDefinitions\\register.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1323000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I am displayed Personal Information Page",
+            "match": {
+              "location": "features\\stepDefinitions\\register.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1260000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
       },
-      "device": "Windows",
-      "platform": {
-        "name": "windows",
-        "version": "10.0.0"
+      {
+        "id": "register-on-automationpractice.com;unable-to-register-to-automationpractice-with-invalid-data",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Unable to register to AutomationPractice with invalid Data",
+        "tags": [
+          {
+            "name": "@negative",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I open AutomationPractice page",
+            "match": {
+              "location": "features\\stepDefinitions\\login.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I navigate to Register Page",
+            "match": {
+              "location": "features\\stepDefinitions\\register.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4334000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I register with my username as \"test@test.com\"",
+            "match": {
+              "location": "features\\stepDefinitions\\register.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 478000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I press the Create Account Button",
+            "match": {
+              "location": "features\\stepDefinitions\\register.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 953000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I am displayed an \"An account using this email address has already been registered. Please enter a valid password or request a new one.\"",
+            "match": {
+              "location": "features\\stepDefinitions\\register.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "register-on-automationpractice.com;unable-to-register-to-automationpractice-with-invalid-data",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Unable to register to AutomationPractice with invalid Data",
+        "tags": [
+          {
+            "name": "@negative",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7036000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I open AutomationPractice page",
+            "match": {
+              "location": "features\\stepDefinitions\\login.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3438000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I navigate to Register Page",
+            "match": {
+              "location": "features\\stepDefinitions\\register.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I register with my username as \"test\"",
+            "match": {
+              "location": "features\\stepDefinitions\\register.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 285000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I press the Create Account Button",
+            "match": {
+              "location": "features\\stepDefinitions\\register.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1334000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I am displayed an \"Invalid email address.\"",
+            "match": {
+              "location": "features\\stepDefinitions\\register.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "register-on-automationpractice.com;unable-to-register-to-automationpractice-with-invalid-data",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Unable to register to AutomationPractice with invalid Data",
+        "tags": [
+          {
+            "name": "@negative",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7344000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I open AutomationPractice page",
+            "match": {
+              "location": "features\\stepDefinitions\\login.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2616000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I navigate to Register Page",
+            "match": {
+              "location": "features\\stepDefinitions\\register.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4770000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I register with my username as \"12\"",
+            "match": {
+              "location": "features\\stepDefinitions\\register.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 258000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I press the Create Account Button",
+            "match": {
+              "location": "features\\stepDefinitions\\register.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1021000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I am displayed an \"Invalid email address.\"",
+            "match": {
+              "location": "features\\stepDefinitions\\register.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
       }
-    },
-    "name": "Login_Test",
-    "runInfo": {
-      "endTime": "2019-06-01T20:36:12.978Z",
-      "passed": 1,
-      "startTime": "2019-06-01T20:36:00.145Z",
-      "testCount": 1,
-      "userAgents": [
-        "Chrome 74.0.3729 / Windows 10.0.0"
-      ],
-      "warnings": []
-    },
-    "skipped": false,
-    "tags": [
-      {
-        "line": 0,
-        "name": "@login_test"
-      },
-      {
-        "line": 0,
-        "name": "@try"
-      },
-      {
-        "line": 0,
-        "name": "@login"
-      },
-      {
-        "line": 0,
-        "name": "@valid"
-      },
-      {
-        "line": 0,
-        "name": "@credentials"
-      }
-    ],
-    "uri": "E:\\Shilpa\\AutomationFrameworks\\AutomationPractice_TestCafe\\tests\\login.test.js:1"
+    ]
   }
 ]

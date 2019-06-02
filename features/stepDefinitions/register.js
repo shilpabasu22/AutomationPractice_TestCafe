@@ -27,3 +27,8 @@ Then('I am displayed Personal Information Page', async function () {
         .expect(registerPage.register.personalInformation().innerText)
         .eql('YOUR PERSONAL INFORMATION')
 });
+Then('I am displayed an {string}', async function(errorMessage){
+    await testController
+        .expect(registerPage.register.errorMessage().innerText)
+        .contains(errorMessage)
+});
