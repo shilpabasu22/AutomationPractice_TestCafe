@@ -21,6 +21,13 @@
     "test-safari-report": "./node_modules/.bin/cucumber-js.cmd  --format json:./reports/report.json --world-parameters \"{\\\"browser\\\": \\\"safari\\\"}\"",
     "test-chrome-headless": "./node_modules/.bin/cucumber-js.cmd  --world-parameters \"{\\\"browser\\\": \\\"chrome:headless\\\"}\"",
     "test-firefox-headless": "./node_modules/.bin/cucumber-js.cmd  --world-parameters \"{\\\"browser\\\": \\\"firefox:headless\\\"}\"",
+    "test:chrome": ".\\node_modules\\.bin\\cucumber-js.cmd --tags '@active'",
+    "test:chrome:3": "testcafe -c 3 chrome ./tests",
+    "test:chrome:mobile": "testcafe 'chrome:emulation:device=iphone X' ./tests",
+    "test:chrome:headless": "./node_modules/.bin/cucumber-js.cmd --world-parameters \"{\\\"browser\\\": \\\"chrome:headless\\\"}\"",
+    "test:firefox": "testcafe firefox ./tests",
+    "test:safari": "testcafe safari ./tests",
+    "test:multiple": "testcafe chrome,firefox ./tests",
     "report": "node report-generator.js"
   },
   "repository": {
