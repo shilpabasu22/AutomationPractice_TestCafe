@@ -41,7 +41,7 @@
   },
   "homepage": "https://github.com/shilpabasu22/AutomationPractice_TestCafe#readme",
   "devDependencies": {
-    "testcafe": "^1.2.0",
+    "testcafe": "^1.20.1",
     "cucumber": "^5.1.0",
     "testcafe-reporter-cucumber-json": "1.2.0",
     "multiple-cucumber-html-reporter": "1.11.6"
